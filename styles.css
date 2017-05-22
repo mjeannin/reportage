@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Open Sans";
+}
+
+html,body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Slabo 27px', serif;
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 18px;
+  line-height: 2;
+}
+
+section:first-of-type {
+  text-transform: uppercase;
+  font-size: 34px;
+}
+
+section:first-of-type.textoverpic,
+section:nth-of-type(5)>h1.textoverpic,
+section.pop {
+  color: #fff;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+section:nth-of-type(even) {
+  background: #fff;
+}
+
+section:nth-of-type(1) {
+  background-image: url("img/img1.jpg");
+}
+
+section:nth-of-type(3) {
+  background-image: url("img/img2.jpg");
+}
+
+section:nth-of-type(5) {
+  background-image: url("img/img3.jpg");
+}
+
+section:nth-of-type(7) {
+  background-image: url("img/img4.jpg");
+}
+
+section:nth-of-type(9) {
+  background-image: url("img/img5.jpg");
+}
+
+section:nth-of-type(11) {
+  background-image: url("img/img6.jpg");
+}
+
+section:nth-of-type(13) {
+  background-image: url("img/img7.jpg");
+}
+
+section>a.next,
+section>a.scrollTop {
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  border-top-left-radius: 10px 10px;
+  padding: 6px;
+  bottom: 0px;
+  width: 65px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+}
+
+section>div.overlaybox {
+  text-shadow: none;
+  max-height: 80vh;
+  float: left;
+  padding: 20px;
+  margin-left: 60px;
+  font-size: 14px;
+  width: 50%;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.87);
+}
+
+.text{
+  margin-left: 15%;
+  margin-right: 28%;
+}
+
+.with-side {
+    position: relative;
+}
+
+.with-side .info {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 230px;
+    padding-left: 10px;
+}
+
+.info {
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #303D3D;
+    margin-bottom: 50px;
+    transition: all 500ms linear;
+    opacity: 1;
+}
+
+.hid {
+    transform: translateX(100px);
+    opacity: 0;
+}

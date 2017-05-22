@@ -1,0 +1,4128 @@
+[
+    {
+        "name": "42 Commandements",
+        "project_id": 817,
+        "difficulty": "Tier 0",
+        "by": [],
+        "final_mark": 100,
+        "kind": "project",
+        "y": 3000.0,
+        "description": "Bienvenue \u00e0 42, jeune cadet !\r\nAvant d'entamer ton cursus, il est temps de savoir ce que l'on attends de toi tout au long de ta scolarit\u00e9.",
+        "state": "done",
+        "slug": "42-commandements",
+        "id": 181,
+        "x": 2150.0,
+        "duration": "about 1 day",
+        "rules": ""
+    },
+    {
+        "name": "ft_printf",
+        "project_id": 5,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        3000
+                    ],
+                    [
+                        3200,
+                        3000
+                    ]
+                ],
+                "parent_id": 53
+            }
+        ],
+        "final_mark": 100,
+        "kind": "project",
+        "y": 3000.0,
+        "description": "Vous en avez assez de faire vos affichages en alternant ft_putstr et ft_putnbr ? Vous n'avez pas le droit d'utiliser printf ? Recodez le votre ! Ce sera l'occasion de d\u00e9couvrir une feature du C - les fonctions variadiques - et de vous entrainer \u00e0 la gestion fine des options d'affichage. Vous aurez ensuite le droit d'utiliser votre printf dans tous vos projets ult\u00e9rieurs.",
+        "state": "done",
+        "slug": "ft_printf",
+        "id": 99,
+        "x": 3200.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated get_next_line"
+    },
+    {
+        "name": "Get_Next_Line",
+        "project_id": 2,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        2725,
+                        3000
+                    ],
+                    [
+                        3000,
+                        3000
+                    ]
+                ],
+                "parent_id": 540
+            }
+        ],
+        "final_mark": 100,
+        "kind": "project",
+        "y": 3000.0,
+        "description": "Qu'il s'agisse d'un fichier, de l'entr\u00e9e standard, ou m\u00eame plus tard d'une connexion r\u00e9seau, vous aurez toujours besoin de lire du contenu ligne par ligne. Il est donc temps de vous attaquer \u00e0 cette fonction, indispensable pour un certain nombre de vos prochains projets.",
+        "state": "done",
+        "slug": "get_next_line",
+        "id": 185,
+        "x": 3000.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated fillit"
+    },
+    {
+        "name": "Philosophers",
+        "project_id": 39,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        1900
+                    ],
+                    [
+                        3000,
+                        1750
+                    ]
+                ],
+                "parent_id": 36
+            },
+            {
+                "points": [
+                    [
+                        3000,
+                        1750
+                    ],
+                    [
+                        3100,
+                        1750
+                    ]
+                ],
+                "parent_id": 36
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1750.0,
+        "description": "Comment g\u00e9rer l\u2019acc\u00e8s concurrentiel de plusieurs processus \u00e0 des ressources partag\u00e9es ? Ce projet vous initialise aux probl\u00e9matiques de la programmation parall\u00e8le via le fameux probl\u00e8me du \u00ab diner des philosophes \u00bb.",
+        "state": "available",
+        "slug": "philosophers",
+        "id": 10,
+        "x": 3100.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated malloc"
+    },
+    {
+        "name": "IRC",
+        "project_id": 41,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        1600
+                    ],
+                    [
+                        3075,
+                        1525
+                    ]
+                ],
+                "parent_id": 37
+            },
+            {
+                "points": [
+                    [
+                        3075,
+                        1525
+                    ],
+                    [
+                        3150,
+                        1600
+                    ]
+                ],
+                "parent_id": 37
+            },
+            {
+                "points": [
+                    [
+                        3147,
+                        1600
+                    ],
+                    [
+                        3275,
+                        1600
+                    ]
+                ],
+                "parent_id": 37
+            },
+            {
+                "points": [
+                    [
+                        3275,
+                        1600
+                    ],
+                    [
+                        3400,
+                        1700
+                    ]
+                ],
+                "parent_id": 37
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1700.0,
+        "description": "Ce projet sur la programmation UNIX r\u00e9seau vous invite \u00e0 r\u00e9aliser un client-serveur offrant des services identiques \u00e0 IRC. Votre impl\u00e9mentation devra utiliser correctement select(2) pour g\u00e9rer la connexion simultan\u00e9e des clients, ainsi que des buffers tournants pour g\u00e9rer les messages des clients.",
+        "state": "available",
+        "slug": "irc",
+        "id": 19,
+        "x": 3400.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated nm-otool"
+    },
+    {
+        "name": "Nm-otool",
+        "project_id": 37,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        1900
+                    ],
+                    [
+                        3000,
+                        1600
+                    ]
+                ],
+                "parent_id": 7
+            }
+        ],
+        "final_mark": 111,
+        "kind": "project",
+        "y": 1600.0,
+        "description": "D\u00e9cortiquez le format des ex\u00e9cutables MacOS et comprenez comment le kernel lance les binaires, en r\u00e9-\u00e9crivant ces deux outils du syst\u00e8me. Indispensable pour tous ceux qui voudront faire de la s\u00e9curit\u00e9, ce projet est plus g\u00e9n\u00e9ralement une ouverture sur la culture UNIX syst\u00e8me.",
+        "state": "done",
+        "slug": "nm-otool",
+        "id": 9,
+        "x": 3000.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated malloc"
+    },
+    {
+        "name": "ft_script",
+        "project_id": 38,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        1900
+                    ],
+                    [
+                        3000,
+                        1750
+                    ]
+                ],
+                "parent_id": 36
+            },
+            {
+                "points": [
+                    [
+                        3000,
+                        1750
+                    ],
+                    [
+                        2900,
+                        1750
+                    ]
+                ],
+                "parent_id": 36
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1750.0,
+        "description": "Recoder la commande script va \u00eatre pour vous l'occasion de comprendre les int\u00e9ractions entre input utilisateur et tty, notamment la line discipline, ainsi que les pseudo-terminaux. Ce projet termin\u00e9, vous saurez enfin pourquoi un Ctrl-C dans votre shell interromp le programme en cours !",
+        "state": "available",
+        "slug": "ft_script",
+        "id": 12,
+        "x": 2900.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated malloc"
+    },
+    {
+        "name": "Fract'ol",
+        "project_id": 15,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        3300
+                    ],
+                    [
+                        3000,
+                        3475
+                    ]
+                ],
+                "parent_id": 25
+            }
+        ],
+        "final_mark": 114,
+        "kind": "project",
+        "y": 3475.0,
+        "description": "D\u00e9couvrez la programmation 2D et l'univers psych\u00e9delique des fractales gr\u00e2ce \u00e0 ce projet \u00e0 r\u00e9aliser avec la minilibX.",
+        "state": "done",
+        "slug": "fract-ol",
+        "id": 26,
+        "x": 3000.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated fdf"
+    },
+    {
+        "name": "Wolf3d",
+        "project_id": 8,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        3475
+                    ],
+                    [
+                        2850,
+                        3680
+                    ]
+                ],
+                "parent_id": 26
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3680.0,
+        "description": "Inspir\u00e9 du c\u00e9l\u00e8bre jeu \u00e9ponyme des ann\u00e9es 90 qui fut le premier First Person Shooter, ce projet vous permet d'aborder la technique du ray-casting. Votre but sera de repr\u00e9senter une vue dynamique \u00e0 l'int\u00e9rieur d'un labyrinthe dans lequel on peut se d\u00e9placer.",
+        "state": "available",
+        "slug": "wolf3d",
+        "id": 27,
+        "x": 2850.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated fract-ol"
+    },
+    {
+        "name": "ft_ls",
+        "project_id": 3,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        3000
+                    ],
+                    [
+                        3000,
+                        2700
+                    ]
+                ],
+                "parent_id": 53
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2800.0,
+        "description": "Pour tout connaitre du filesystem, de la fa\u00e7on dont sont rang\u00e9s les fichiers et r\u00e9pertoires, codez par vous-m\u00eame une des commandes les plus utilis\u00e9es : ls .",
+        "state": "in_progress",
+        "slug": "ft_ls",
+        "id": 35,
+        "x": 3000.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated get_next_line"
+    },
+    {
+        "name": "ft_p",
+        "project_id": 40,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        1600
+                    ],
+                    [
+                        3075,
+                        1525
+                    ]
+                ],
+                "parent_id": 37
+            },
+            {
+                "points": [
+                    [
+                        3075,
+                        1525
+                    ],
+                    [
+                        3150,
+                        1600
+                    ]
+                ],
+                "parent_id": 37
+            },
+            {
+                "points": [
+                    [
+                        3147,
+                        1600
+                    ],
+                    [
+                        3275,
+                        1600
+                    ]
+                ],
+                "parent_id": 37
+            },
+            {
+                "points": [
+                    [
+                        3275,
+                        1600
+                    ],
+                    [
+                        3400,
+                        1500
+                    ]
+                ],
+                "parent_id": 37
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1500.0,
+        "description": "Ce projet introductif sur la programmation UNIX r\u00e9seau vous invite \u00e0 r\u00e9aliser un client-serveur offrant des services identiques \u00e0 ftp. Bonus : respectez le standard pour \u00eatre interop\u00e9rable avec les outils existants !",
+        "state": "available",
+        "slug": "ft_p",
+        "id": 18,
+        "x": 3400.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated nm-otool"
+    },
+    {
+        "name": "Corewar",
+        "project_id": 22,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        3600,
+                        3000
+                    ],
+                    [
+                        3900,
+                        3000
+                    ]
+                ],
+                "parent_id": 103
+            }
+        ],
+        "final_mark": 118,
+        "kind": "big_project",
+        "y": 3000.0,
+        "description": "Ce projet vous invite \u00e0 cr\u00e9er une ar\u00e8ne virtuelle et \u00e0 y faire s\u2019affronter des programmes cod\u00e9s dans un langage simpliste. Vous allez ainsi aborder la conception d\u2019une VM (avec les instructions qu\u2019elle reconnait, les registres, etc), et les probl\u00e9matiques de compilation d\u2019un langage assembleur en bytecode. Avec, en bonus, le plaisir de faire s\u2019affronter vos champions sur votre ar\u00e8ne !",
+        "state": "done",
+        "slug": "corewar",
+        "id": 104,
+        "x": 3900.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated lem_in"
+    },
+    {
+        "name": "Libft",
+        "project_id": 1,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        2300,
+                        3000
+                    ],
+                    [
+                        2550,
+                        3000
+                    ]
+                ],
+                "parent_id": 756
+            }
+        ],
+        "final_mark": 112,
+        "kind": "project",
+        "y": 3000.0,
+        "description": "Ce premier projet en tant qu'\u00e9tudiant de 42 va vous faire consolider vos acquis de piscine. Vous allez recoder un certain nombre de fonctions de la librairie C standard, ainsi que d'autres fonctions utilitaires que vous r\u00e9utiliserez tout au long de votre cursus.",
+        "state": "done",
+        "slug": "libft",
+        "id": 183,
+        "x": 2550.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated piscine-reloaded"
+    },
+    {
+        "name": "Zappy",
+        "project_id": 43,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        3400,
+                        1500
+                    ],
+                    [
+                        3525,
+                        1600
+                    ]
+                ],
+                "parent_id": 18
+            },
+            {
+                "points": [
+                    [
+                        3525,
+                        1600
+                    ],
+                    [
+                        4300,
+                        1600
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3400,
+                        1700
+                    ],
+                    [
+                        3525,
+                        1600
+                    ]
+                ],
+                "parent_id": 19
+            }
+        ],
+        "final_mark": null,
+        "kind": "big_project",
+        "y": 1600.0,
+        "description": "Ce projet est l\u2019aboutissement de vos pr\u00e9c\u00e9dents efforts en UNIX avanc\u00e9 : vous allez ici r\u00e9aliser un jeu multi-joueurs en r\u00e9seau TCP/IP. Ce jeu sera constitu\u00e9 d\u2019un serveur g\u00e9rant le terrain de jeu, d\u2019un client graphique qui affiche l'\u00e9tat du plateau, et de clients IA qui se connectent sur le serveur pour piloter un joueur sur le terrain. C'est un projet tr\u00e8s complet qui vous donne l'occasion d'exprimer votre cr\u00e9ativit\u00e9 en plus de vos connaissances techniques !",
+        "state": "unavailable",
+        "slug": "zappy",
+        "id": 21,
+        "x": 4300.0,
+        "duration": "about 6 weeks",
+        "rules": "You must have validated 1 of irc and ft_p. You must have validated first-internship"
+    },
+    {
+        "name": "FdF",
+        "project_id": 4,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        3000
+                    ],
+                    [
+                        3000,
+                        3300
+                    ]
+                ],
+                "parent_id": 53
+            }
+        ],
+        "final_mark": 123,
+        "kind": "project",
+        "y": 3300.0,
+        "description": "Initiation aux applications graphiques : ouvrez une fen\u00eatre, et dessinez ! Ce projet vous fait d\u00e9couvrir les grands principes de la programmation d'une interface utilisateur au travers de la repr\u00e9sentation d'une surface \"fil de fer\" en 3 dimensions.",
+        "state": "done",
+        "slug": "fdf",
+        "id": 25,
+        "x": 3000.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated get_next_line"
+    },
+    {
+        "name": "Malloc",
+        "project_id": 36,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        2000
+                    ],
+                    [
+                        3000,
+                        1900
+                    ]
+                ],
+                "parent_id": 35
+            }
+        ],
+        "final_mark": 121,
+        "kind": "project",
+        "y": 1900.0,
+        "description": "Que se cache derriere malloc ? Vous l'utilisez depuis la piscine C, mais ce n'est pas un appel syst\u00e8me. D\u00e9couvrez les rouages d'une gestion optimum de la m\u00e9moire, et recodez-le, ainsi que free et realloc.",
+        "state": "done",
+        "slug": "malloc",
+        "id": 7,
+        "x": 3000.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "mod1",
+        "project_id": 78,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3600,
+                        3000
+                    ],
+                    [
+                        3750,
+                        3000
+                    ]
+                ],
+                "parent_id": 103
+            },
+            {
+                "points": [
+                    [
+                        3750,
+                        3000
+                    ],
+                    [
+                        3750,
+                        3250
+                    ]
+                ],
+                "parent_id": 29
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3250.0,
+        "description": "Ce projet graphique de simulation vous fera repr\u00e9senter une surface en 3D, sur laquelle s'\u00e9coule de l'eau. Empirique, ou scientifique (avec nombre \u00e9quations), recr\u00e9ez une vague, un tsunami, ou simplement de la pluie sur votre surface.",
+        "state": "available",
+        "slug": "mod1",
+        "id": 2,
+        "x": 3750.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated lem_in"
+    },
+    {
+        "name": "LibftASM",
+        "project_id": 79,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        1600
+                    ],
+                    [
+                        2900,
+                        1500
+                    ]
+                ],
+                "parent_id": 37
+            },
+            {
+                "points": [
+                    [
+                        2903,
+                        1500
+                    ],
+                    [
+                        2800,
+                        1500
+                    ]
+                ],
+                "parent_id": 37
+            }
+        ],
+        "final_mark": 114,
+        "kind": "project",
+        "y": 1500.0,
+        "description": "Ce projet a pour but de vous faire coder une minilib en ASM, en recodant quelques fonctions basiques de la libc. A la fin de ce projet vous serez familiaris\u00e9s avec la syntaxe du langage, le fonctionnement de la stack, mais aussi le comportement du compilateur. Absolument indispensable pour continuer sur les projets de s\u00e9curit\u00e9.",
+        "state": "done",
+        "slug": "libftasm",
+        "id": 16,
+        "x": 2800.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated nm-otool"
+    },
+    {
+        "name": "minishell",
+        "project_id": 7,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        2700
+                    ],
+                    [
+                        3000,
+                        2550
+                    ]
+                ],
+                "parent_id": 35
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2600.0,
+        "description": "Premier palier de r\u00e9alisation d'un shell, vous devrez pour ce projet r\u00e9aliser un mini-shell capable de prompter l'utilisateur pour une commande, rechercher le binaire sur la machine, et l'ex\u00e9cuter. Vous devrez \u00e9galement impl\u00e9menter quelques builtins basiques.",
+        "state": "unavailable",
+        "slug": "minishell",
+        "id": 37,
+        "x": 3000.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated ft_ls"
+    },
+    {
+        "name": "42sh",
+        "project_id": 35,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        2350
+                    ],
+                    [
+                        3000,
+                        2100
+                    ]
+                ],
+                "parent_id": 39
+            }
+        ],
+        "final_mark": null,
+        "kind": "big_project",
+        "y": 2100.0,
+        "description": "Building upon your previous work on 21sh, you will create a complete shell. Through this project, you will build your own complete shell based on a minimum set of features - up to job control and shell script. This project will consequently enable you to explore a large spectrum of standard UNIX (and POSIX) features.",
+        "state": "unavailable",
+        "slug": "42sh",
+        "id": 33,
+        "x": 3000.0,
+        "duration": "about 6 weeks",
+        "rules": "You must have validated 1 of 21sh and ft_sh3"
+    },
+    {
+        "name": "Filler",
+        "project_id": 26,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3200,
+                        3000
+                    ],
+                    [
+                        3400,
+                        2850
+                    ]
+                ],
+                "parent_id": 53
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2850.0,
+        "description": "Create your player to fight other students on the world famous (or infamous) Filler board. The concept is simple: two players gain points by placing on a board, one after the other, the game piece obtained by the game master (in the form of an executable Ruby program). The game ends when the game piece cannot be placed anymore. Have fun!",
+        "state": "available",
+        "slug": "filler",
+        "id": 101,
+        "x": 3400.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated ft_printf"
+    },
+    {
+        "name": "RTv1",
+        "project_id": 23,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        3475
+                    ],
+                    [
+                        3150,
+                        3680
+                    ]
+                ],
+                "parent_id": 26
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3680.0,
+        "description": "Discover Raytracing fundamental principles: computer-generated imagery. Through this first project, you will create simple scenes involving objects and non complex lights.",
+        "state": "available",
+        "slug": "rtv1",
+        "id": 28,
+        "x": 3150.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated fract-ol"
+    },
+    {
+        "name": "Abstract VM",
+        "project_id": 80,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2400,
+                        4039
+                    ],
+                    [
+                        2400,
+                        4350
+                    ]
+                ],
+                "parent_id": 48
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4350.0,
+        "description": "Ce projet vous remet dans le bain apr\u00e8s la piscine C++ et vous invite \u00e0 r\u00e9aliser une machine virtuelle capable d'ex\u00e9cuter un code en pseudo-ASM basique. Vous allez ainsi utiliser une stack pour faire des op\u00e9rations arithm\u00e9tiques basiques, \u00e0 l'instar de la commande dc.",
+        "state": "unavailable",
+        "slug": "abstract-vm",
+        "id": 49,
+        "x": 2400.0,
+        "duration": "about 3 weeks",
+        "rules": "You must have validated piscine-cpp"
+    },
+    {
+        "name": "Lem_in",
+        "project_id": 29,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3400,
+                        2850
+                    ],
+                    [
+                        3600,
+                        3000
+                    ]
+                ],
+                "parent_id": 101
+            },
+            {
+                "points": [
+                    [
+                        3400,
+                        3150
+                    ],
+                    [
+                        3600,
+                        3000
+                    ]
+                ],
+                "parent_id": 102
+            }
+        ],
+        "final_mark": 121,
+        "kind": "project",
+        "y": 3000.0,
+        "description": "Votre colonie de foumis doit se d\u00e9placer d'un point \u00e0 un autre. Mais comment faire pour que cela prenne le moins de temps possible ? Ce projet vous fait d\u00e9couvrir les algorithmes de parcours de graphe : votre programme devra s\u00e9lectionner intelligemment les chemins et les mouvements pr\u00e9cis qui doivent \u00eatre emprunt\u00e9s par ces fourmis.",
+        "state": "done",
+        "slug": "lem_in",
+        "id": 103,
+        "x": 3600.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated 1 of push_swap and filler"
+    },
+    {
+        "name": "ft_select",
+        "project_id": 33,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        2550
+                    ],
+                    [
+                        3000,
+                        2450
+                    ]
+                ],
+                "parent_id": 37
+            },
+            {
+                "points": [
+                    [
+                        3000,
+                        2450
+                    ],
+                    [
+                        2800,
+                        2450
+                    ]
+                ],
+                "parent_id": 7
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2450.0,
+        "description": "Ce projet a pour but de vous initier \u00e0 la manipulation du terminal avec les termcaps. Vous allez ici apprendre \u00e0 cr\u00e9er une interface utilisateur pour un programme lanc\u00e9 dans le terminal.",
+        "state": "unavailable",
+        "slug": "ft_select",
+        "id": 38,
+        "x": 2800.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated minishell"
+    },
+    {
+        "name": "Lem-ipc",
+        "project_id": 42,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3400,
+                        1500
+                    ],
+                    [
+                        3525,
+                        1600
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3525,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1600
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1450
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1450
+                    ],
+                    [
+                        3850,
+                        1450
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3400,
+                        1700
+                    ],
+                    [
+                        3525,
+                        1600
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3525,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1600
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1450
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1450
+                    ],
+                    [
+                        3850,
+                        1450
+                    ]
+                ],
+                "parent_id": 41
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1450.0,
+        "description": "Vous avez vu pr\u00e9c\u00e9demment la communication entre processus sur le r\u00e9seau, via TCP/IP ; vous allez maintenant manipuler d\u2019autres outils UNIX pour faire communiquer des processus en local. Vous allez d\u00e9couvrir ces outils via la cr\u00e9ation d\u2019un client de jeu de plateau basique.",
+        "state": "unavailable",
+        "slug": "lem-ipc",
+        "id": 44,
+        "x": 3850.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated 1 of ft_p and irc"
+    },
+    {
+        "name": "Push_swap",
+        "project_id": 27,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3200,
+                        3000
+                    ],
+                    [
+                        3400,
+                        3150
+                    ]
+                ],
+                "parent_id": 53
+            }
+        ],
+        "final_mark": 94,
+        "kind": "project",
+        "y": 3150.0,
+        "description": "Ce projet vous demande de trier des donn\u00e9es sur une pile, avec un set d\u2019instructions limit\u00e9, en moins de coups possibles. Pour le r\u00e9ussir, vous devrez manipuler diff\u00e9rents algorithmes de tri et choisir la (ou les ?) solution la plus appropri\u00e9e pour un classement optimis\u00e9 des donn\u00e9es.",
+        "state": "done",
+        "slug": "push_swap",
+        "id": 102,
+        "x": 3400.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated ft_printf"
+    },
+    {
+        "name": "RT",
+        "project_id": 24,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        3150,
+                        3680
+                    ],
+                    [
+                        3000,
+                        3900
+                    ]
+                ],
+                "parent_id": 28
+            },
+            {
+                "points": [
+                    [
+                        2850,
+                        3680
+                    ],
+                    [
+                        3000,
+                        3900
+                    ]
+                ],
+                "parent_id": 27
+            }
+        ],
+        "final_mark": null,
+        "kind": "big_project",
+        "y": 3900.0,
+        "description": "Passez \u00e0 la vitesse sup\u00e9rieure ! Suite du Rtv1, le RT pousse beaucoup plus loin les possibilit\u00e9s du Raytracing : effet miroir, transparence, d\u00e9coupe des objets, applications de textures... Capitalisez sur le projet pr\u00e9c\u00e9dent pour r\u00e9aliser une infrastructure capable de supporter toutes ces ramifications et obtenir de sublimes images de synth\u00e8se.",
+        "state": "unavailable",
+        "slug": "rt",
+        "id": 29,
+        "x": 3000.0,
+        "duration": "about 6 weeks",
+        "rules": "You must have validated 1 of rtv1 and wolf3d"
+    },
+    {
+        "name": "KFS-6",
+        "project_id": 873,
+        "difficulty": "Tier 4",
+        "by": [
+            {
+                "points": [
+                    [
+                        1750,
+                        1600
+                    ],
+                    [
+                        1850,
+                        1500
+                    ]
+                ],
+                "parent_id": 825
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1500.0,
+        "description": "Keep on developping your own kernel. This project will help you set up your own filesystem.",
+        "state": "unavailable",
+        "slug": "kfs-6",
+        "id": 199,
+        "x": 1850.0,
+        "duration": "about 6 weeks",
+        "rules": "You must have validated kfs-5"
+    },
+    {
+        "name": "fix-me",
+        "project_id": 872,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        1950,
+                        4420
+                    ],
+                    [
+                        1800,
+                        4490
+                    ]
+                ],
+                "parent_id": 871
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4490.0,
+        "description": "Final project of the Java Programming arc. Write a program that simulates stock exchanges and deals with trading algorithms, with networking and socket implementations. ",
+        "state": "unavailable",
+        "slug": "fix-me",
+        "id": 202,
+        "x": 1800.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated swingy"
+    },
+    {
+        "name": "swingy",
+        "project_id": 871,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2100,
+                        4350
+                    ],
+                    [
+                        1950,
+                        4420
+                    ]
+                ],
+                "parent_id": 870
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4420.0,
+        "description": "This is the second project from the Java world at 42. You will learn to develop GUI applications with the SWING framework, in order to create an RPG game.",
+        "state": "unavailable",
+        "slug": "swingy",
+        "id": 201,
+        "x": 1950.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated avaj-launcher"
+    },
+    {
+        "name": "avaj-launcher",
+        "project_id": 870,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        2220,
+                        4200
+                    ],
+                    [
+                        2220,
+                        4303
+                    ]
+                ],
+                "parent_id": 62
+            },
+            {
+                "points": [
+                    [
+                        2220,
+                        4300
+                    ],
+                    [
+                        2100,
+                        4350
+                    ]
+                ],
+                "parent_id": 62
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4350.0,
+        "description": "First projet of the Java projects arc. Implementation of a simple Java program according to a given class diagram written in UML.",
+        "state": "unavailable",
+        "slug": "avaj-launcher",
+        "id": 200,
+        "x": 2100.0,
+        "duration": null,
+        "rules": "You must have validated piscine-cpp"
+    },
+    {
+        "name": "docker-1",
+        "project_id": 847,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3600,
+                        2200
+                    ],
+                    [
+                        3700,
+                        2080
+                    ]
+                ],
+                "parent_id": 2
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2080.0,
+        "description": "Premier projet sur l'\u00e9cosyst\u00e8me Docker. Apprenez \u00e0 r\u00e9fl\u00e9chir en containers \u00e0 travers ce sujet, qui vous fera manipuler le binaire docker et cr\u00e9er vos premiers containers avec des Dockerfiles",
+        "state": "available",
+        "slug": "docker-1",
+        "id": 196,
+        "x": 3700.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "ComputorV2",
+        "project_id": 846,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        4100,
+                        3250
+                    ],
+                    [
+                        4100,
+                        3450
+                    ]
+                ],
+                "parent_id": 111
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3450.0,
+        "description": "Maintenant que vous avez programm\u00e9 votre r\u00e9solveur d'\u00e9quations, il est temps d'aller un peu plus loin. Computor V2 vous propose de cr\u00e9er votre propre calculette en ligne de commande, qui va int\u00e9grer votre computorv1 ainsi que des fonctions de calculs matriciels, de resolution de fonctions, de calculs sur nombre imaginaires etc...",
+        "state": "unavailable",
+        "slug": "computorv2",
+        "id": 197,
+        "x": 4100.0,
+        "duration": "about 3 weeks",
+        "rules": "You must have validated computorv1"
+    },
+    {
+        "name": "KFS-5",
+        "project_id": 825,
+        "difficulty": "Tier 5",
+        "by": [
+            {
+                "points": [
+                    [
+                        1850,
+                        1700
+                    ],
+                    [
+                        1750,
+                        1600
+                    ]
+                ],
+                "parent_id": 824
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1600.0,
+        "description": "A vous maintenant de d\u00e9velopper la gestion des process dans votre Kernel, en implementant de quoi interpr\u00e9ter la commande :(){ :|:& };:",
+        "state": "unavailable",
+        "slug": "kfs-5",
+        "id": 198,
+        "x": 1750.0,
+        "duration": "about 8 weeks",
+        "rules": "You must have validated kfs-4"
+    },
+    {
+        "name": "KFS-4",
+        "project_id": 824,
+        "difficulty": "Tier 4",
+        "by": [
+            {
+                "points": [
+                    [
+                        1950,
+                        1800
+                    ],
+                    [
+                        1850,
+                        1700
+                    ]
+                ],
+                "parent_id": 717
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1700.0,
+        "description": "Projet visant a cr\u00e9er une Interrupt Description Table et gerer les interruptions avec votre Kernel.",
+        "state": "unavailable",
+        "slug": "kfs-4",
+        "id": 195,
+        "x": 1850.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated kfs-3"
+    },
+    {
+        "name": "Famine",
+        "project_id": 820,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2800,
+                        1500
+                    ],
+                    [
+                        2980,
+                        1320
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        2980,
+                        1323
+                    ],
+                    [
+                        2980,
+                        1200
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        3000,
+                        1400
+                    ],
+                    [
+                        3000,
+                        1200
+                    ]
+                ],
+                "parent_id": 700
+            },
+            {
+                "points": [
+                    [
+                        3200,
+                        1500
+                    ],
+                    [
+                        3020,
+                        1320
+                    ]
+                ],
+                "parent_id": 701
+            },
+            {
+                "points": [
+                    [
+                        3020,
+                        1323
+                    ],
+                    [
+                        3020,
+                        1200
+                    ]
+                ],
+                "parent_id": 701
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1200.0,
+        "description": "Bienvenue dans le monde merveilleux des virus, trojans et autres hantises de <Insert random antiVirus software>... Votre but ici est de mettre vos comp\u00e9tences sur la manipulation des fichiers binaires et faire votre premier virus. ATTENTION : Ce projet est uniquement \u00e0 but p\u00e9dagogique.",
+        "state": "unavailable",
+        "slug": "famine",
+        "id": 190,
+        "x": 3000.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated libftasm, woody-woodpacker, and dr-quine"
+    },
+    {
+        "name": "H42N42",
+        "project_id": 819,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        1872,
+                        3410
+                    ],
+                    [
+                        1690,
+                        3410
+                    ]
+                ],
+                "parent_id": 370
+            },
+            {
+                "points": [
+                    [
+                        1690,
+                        3410
+                    ],
+                    [
+                        1690,
+                        3280
+                    ]
+                ],
+                "parent_id": 370
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3280.0,
+        "description": "Projet d'introduction au Framework OCSIGEN, permettant de cr\u00e9er des applications web riches en OCaml. Concevez un simulateur de Bestioles \u00e9chappant \u00e0 un dangereux virus !",
+        "state": "unavailable",
+        "slug": "h42n42",
+        "id": 189,
+        "x": 1690.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated piscine-ocaml"
+    },
+    {
+        "name": "Red Tetris",
+        "project_id": 818,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        2300,
+                        2100
+                    ],
+                    [
+                        2200,
+                        2200
+                    ]
+                ],
+                "parent_id": 118
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2100.0,
+        "description": "L\u2019objectif de ce projet est de de\u0301velopper un jeu de tetris multijoueurs en re\u0301seau a\u0300 partir d\u2019une pile logicielle exclusivement Full Stack Javascript",
+        "state": "available",
+        "slug": "red-tetris",
+        "id": 174,
+        "x": 2300.0,
+        "duration": "about 3 weeks",
+        "rules": "You must have validated First Internship"
+    },
+    {
+        "name": "Music Room",
+        "project_id": 719,
+        "difficulty": "Tier 4",
+        "by": [],
+        "final_mark": null,
+        "kind": "big_project",
+        "y": 4250.0,
+        "description": "Projet en partenariat avec \"Deezer\". Cr\u00e9ez en groupe une application mobile compl\u00e8te de playlist collaborative en utilisant les SDK et API de Deezer. Au programme : du d\u00e9veloppement natif mobile, du d\u00e9veloppement de back-end et de la cr\u00e9ation d'API REST.",
+        "state": "available",
+        "slug": "music-room",
+        "id": 120,
+        "x": 1900.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "KFS-3",
+        "project_id": 717,
+        "difficulty": "Tier 5",
+        "by": [
+            {
+                "points": [
+                    [
+                        2050,
+                        1700
+                    ],
+                    [
+                        1950,
+                        1800
+                    ]
+                ],
+                "parent_id": 717
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1800.0,
+        "description": "Third \"Kernel from Scratch\" project. Learn how to manage the memory in you kernel.",
+        "state": "unavailable",
+        "slug": "kfs-3",
+        "id": 171,
+        "x": 1950.0,
+        "duration": "about 6 weeks",
+        "rules": "You must have validated KFS-2"
+    },
+    {
+        "name": "KFS-1",
+        "project_id": 716,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        2050,
+                        1500
+                    ],
+                    [
+                        1950,
+                        1600
+                    ]
+                ],
+                "parent_id": 711
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1600.0,
+        "description": "Discover the world of \"Kernel Programming\" and learn how to create your very own Kernel from scratch.",
+        "state": "unavailable",
+        "slug": "kfs-1",
+        "id": 119,
+        "x": 1950.0,
+        "duration": "about 6 weeks",
+        "rules": "You must have validated filesystem"
+    },
+    {
+        "name": "KFS-2",
+        "project_id": 714,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        1950,
+                        1600
+                    ],
+                    [
+                        2050,
+                        1700
+                    ]
+                ],
+                "parent_id": 716
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1700.0,
+        "description": "Discover the world of \"Kernel Programming\" and learn how to create your very own Kernel from scratch.",
+        "state": "unavailable",
+        "slug": "kfs-2",
+        "id": 170,
+        "x": 2050.0,
+        "duration": "about 6 weeks",
+        "rules": "You must have validated kfs-1"
+    },
+    {
+        "name": "Filesystem",
+        "project_id": 711,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        2200,
+                        1500
+                    ],
+                    [
+                        2050,
+                        1500
+                    ]
+                ],
+                "parent_id": 710
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1500.0,
+        "description": "Create your own filesystem, for your linux kernel.",
+        "state": "unavailable",
+        "slug": "filesystem",
+        "id": 116,
+        "x": 2050.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated drivers-and-interrupts"
+    },
+    {
+        "name": "Drivers and Interrupts",
+        "project_id": 710,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        2350,
+                        1500
+                    ],
+                    [
+                        2200,
+                        1500
+                    ]
+                ],
+                "parent_id": 709
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1500.0,
+        "description": "Learn how to connect a driver to your kernel. We will use a keyboard driver for this project.",
+        "state": "unavailable",
+        "slug": "drivers-and-interrupts",
+        "id": 115,
+        "x": 2200.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated process-and-memory"
+    },
+    {
+        "name": "Process and Memory",
+        "project_id": 709,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2500,
+                        1500
+                    ],
+                    [
+                        2350,
+                        1500
+                    ]
+                ],
+                "parent_id": 696
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1500.0,
+        "description": "An introduction to syscalls and memory management within linux kernel",
+        "state": "unavailable",
+        "slug": "process-and-memory",
+        "id": 112,
+        "x": 2350.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated little-penguin-1"
+    },
+    {
+        "name": "Matt Daemon",
+        "project_id": 702,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3400,
+                        1500
+                    ],
+                    [
+                        3525,
+                        1600
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3525,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1600
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1400
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1400
+                    ],
+                    [
+                        3500,
+                        1300
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3400,
+                        1700
+                    ],
+                    [
+                        3525,
+                        1600
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3525,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1600
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1400
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1400
+                    ],
+                    [
+                        3500,
+                        1300
+                    ]
+                ],
+                "parent_id": 41
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1300.0,
+        "description": "Projet Unix dont le but est de cr\u00e9er un daemon de type serveur. Ce serveur va alors \u00e9couter sur un port donn\u00e9 et interpr\u00e9ter une liste de commandes.",
+        "state": "unavailable",
+        "slug": "matt-daemon",
+        "id": 88,
+        "x": 3500.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated 1 of ft_p and irc"
+    },
+    {
+        "name": "Woody Woodpacker",
+        "project_id": 701,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        1600
+                    ],
+                    [
+                        3100,
+                        1500
+                    ]
+                ],
+                "parent_id": 37
+            },
+            {
+                "points": [
+                    [
+                        3097,
+                        1500
+                    ],
+                    [
+                        3200,
+                        1500
+                    ]
+                ],
+                "parent_id": 37
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1500.0,
+        "description": "Projet dans la suite logique de nm/otools qui a pour principe de modifier les headers d'un fichier de type ELF64. Le but ici est de pouvoir ajouter un morceau de code et obfuscer une partie d'un fichier non stripp\u00e9.",
+        "state": "in_progress",
+        "slug": "woody-woodpacker",
+        "id": 82,
+        "x": 3200.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated nm-otool"
+    },
+    {
+        "name": "Dr Quine",
+        "project_id": 700,
+        "difficulty": "Tier 2",
+        "by": [],
+        "final_mark": 100,
+        "kind": "project",
+        "y": 1400.0,
+        "description": "Ce petit projet d'algo vous permet d'aborder les probl\u00e9matiques de l'auto-r\u00e9plication, et vous confronte au th\u00e9or\u00e8me de r\u00e9cursion de Kleene !\r\n",
+        "state": "done",
+        "slug": "dr-quine",
+        "id": 86,
+        "x": 3000.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "RainFall",
+        "project_id": 699,
+        "difficulty": "Tier 4",
+        "by": [
+            {
+                "points": [
+                    [
+                        2550,
+                        1350
+                    ],
+                    [
+                        2450,
+                        1250
+                    ]
+                ],
+                "parent_id": 603
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1250.0,
+        "description": "Rainfall est un iso de challenge l\u00e9g\u00e8rement plus complexe que Snow Crash qui vous plongera dans les m\u00e9andres du reverse engineering et vous apprendra \u00e0 reconstruire un code et \u00e0 en comprendre son fonctionnement afin d'en d\u00e9nicher les failles. Pourrez-vous atteindre le dernier level ?",
+        "state": "unavailable",
+        "slug": "rainfall",
+        "id": 85,
+        "x": 2450.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated snow-crash"
+    },
+    {
+        "name": "little-penguin-1",
+        "project_id": 696,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2650,
+                        1500
+                    ],
+                    [
+                        2500,
+                        1500
+                    ]
+                ],
+                "parent_id": 695
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1500.0,
+        "description": "Le d\u00e9but d'une s\u00e9rie de challenges inspir\u00e9s du challenge Eudyptula, vous permettant d'aborder de nombreux points du developpement Kernel.",
+        "state": "unavailable",
+        "slug": "little-penguin-1",
+        "id": 84,
+        "x": 2500.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated ft_linux"
+    },
+    {
+        "name": "ft_linux",
+        "project_id": 695,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        2800,
+                        1500
+                    ],
+                    [
+                        2650,
+                        1500
+                    ]
+                ],
+                "parent_id": 79
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1500.0,
+        "description": "Le premier projet de la branche Kernel ! Il s'agit d'un simple LFS, afin que vous construisiez votre propre distribution sur laquelle vous travaillerez ensuite pour les prochains projets.",
+        "state": "available",
+        "slug": "ft_linux",
+        "id": 81,
+        "x": 2650.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated libftasm"
+    },
+    {
+        "name": "cloud-1",
+        "project_id": 694,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3912,
+                        2590
+                    ],
+                    [
+                        4050,
+                        2450
+                    ]
+                ],
+                "parent_id": 32
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2450.0,
+        "description": "Ce projet est une introduction aux serveurs en cloud.",
+        "state": "available",
+        "slug": "cloud-1",
+        "id": 114,
+        "x": 4050.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "roger-skyline-2",
+        "project_id": 688,
+        "difficulty": "Tier 4",
+        "by": [
+            {
+                "points": [
+                    [
+                        3900,
+                        2250
+                    ],
+                    [
+                        4100,
+                        2250
+                    ]
+                ],
+                "parent_id": 113
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2250.0,
+        "description": "Ce projet propos\u00e9 par slash16 vous donne la possibilit\u00e9 de monter votre propre infrastructure inspir\u00e9 de celle de 42.",
+        "state": "unavailable",
+        "slug": "roger-skyline-2",
+        "id": 118,
+        "x": 4100.0,
+        "duration": "about 8 weeks",
+        "rules": "You must have validated roger-skyline-1"
+    },
+    {
+        "name": "roger-skyline-1",
+        "project_id": 687,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3780,
+                        2375
+                    ],
+                    [
+                        3900,
+                        2250
+                    ]
+                ],
+                "parent_id": 32
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2250.0,
+        "description": "Ce projet est une introduction \u00e0 l'administration syst\u00e8me et au r\u00e9seau, propos\u00e9 par l'\u00e9quipe slash16.",
+        "state": "available",
+        "slug": "roger-skyline-1",
+        "id": 113,
+        "x": 3900.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "Friends with Benefits",
+        "project_id": 683,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        2100,
+                        2300
+                    ],
+                    [
+                        2200,
+                        2200
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        2200,
+                        2200
+                    ],
+                    [
+                        2100,
+                        2100
+                    ]
+                ],
+                "parent_id": 118
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2300.0,
+        "description": "Friends with Benefits est un projet en partenariat avec l'entreprise Cozy-Cloud. Il vous permettra d'utiliser leur outil pour cr\u00e9er une One Page Application, en open source, qui sera ensuite disponible sur leur marketplace.\t\t",
+        "state": "available",
+        "slug": "friends-with-benefits",
+        "id": 79,
+        "x": 2100.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated piscine-php and first-internship"
+    },
+    {
+        "name": "GBmu",
+        "project_id": 682,
+        "difficulty": "Tier 4",
+        "by": [
+            {
+                "points": [
+                    [
+                        2800,
+                        1500
+                    ],
+                    [
+                        2700,
+                        1600
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        2700,
+                        1600
+                    ],
+                    [
+                        2597,
+                        1600
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        2600,
+                        1600
+                    ],
+                    [
+                        2550,
+                        1650
+                    ]
+                ],
+                "parent_id": 79
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1650.0,
+        "description": "Ce projet a pour but de vous faire coder un \u00e9mulateur de gameboy normal et color. Vous allez ainsi vous familiariser avec la documentation electronique, mieux appr\u00e9hender l\u2019\u00e9mulation de hardware et comprendre le fonctionnement interne d\u2019une gameboy ainsi que des roms",
+        "state": "available",
+        "slug": "gbmu",
+        "id": 78,
+        "x": 2550.0,
+        "duration": "about 8 weeks",
+        "rules": "You must have validated libftasm. You should have validated piscine-cpp"
+    },
+    {
+        "name": "Particle System",
+        "project_id": 679,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        4150
+                    ],
+                    [
+                        3000,
+                        4400
+                    ]
+                ],
+                "parent_id": 135
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4400.0,
+        "description": "Ce projet d\u2019infographie est une introduction au monde merveilleux du GPU. Via l\u2019utilisation d\u2019OpenGL et d\u2019OpenCL, permettant une parall\u00e9lisation massive des calculs, vous devrez cr\u00e9er un syst\u00e8me de particules tout en respectant les contraintes de performance impos\u00e9es.",
+        "state": "unavailable",
+        "slug": "particle-system",
+        "id": 76,
+        "x": 3000.0,
+        "duration": null,
+        "rules": "You must have validated scop"
+    },
+    {
+        "name": "In the Shadows",
+        "project_id": 678,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2600,
+                        4350
+                    ],
+                    [
+                        2730,
+                        4350
+                    ]
+                ],
+                "parent_id": 394
+            },
+            {
+                "points": [
+                    [
+                        2725,
+                        4350
+                    ],
+                    [
+                        2725,
+                        4450
+                    ]
+                ],
+                "parent_id": 394
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4450.0,
+        "description": "Ce projet a pour but de vous faire d\u00e9velopper un jeu complet n\u00e9cessitant un peu d'algo et beaucoup de cr\u00e9ativit\u00e9.",
+        "state": "unavailable",
+        "slug": "in-the-shadows",
+        "id": 75,
+        "x": 2725.0,
+        "duration": "about 3 weeks",
+        "rules": "You must have validated piscine-unity"
+    },
+    {
+        "name": "XV",
+        "project_id": 677,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        2650,
+                        4200
+                    ],
+                    [
+                        2650,
+                        4350
+                    ]
+                ],
+                "parent_id": 394
+            },
+            {
+                "points": [
+                    [
+                        2655,
+                        4350
+                    ],
+                    [
+                        2570,
+                        4350
+                    ]
+                ],
+                "parent_id": 394
+            },
+            {
+                "points": [
+                    [
+                        2575,
+                        4350
+                    ],
+                    [
+                        2575,
+                        4450
+                    ]
+                ],
+                "parent_id": 394
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4450.0,
+        "description": "Ce projet vous est propos\u00e9 par l'entreprise Daher et a pour but de vous faire d\u00e9velopper une interface graphique sous Unity \u00e0 des fin d'optimisation de processus industriels.",
+        "state": "unavailable",
+        "slug": "xv",
+        "id": 74,
+        "x": 2575.0,
+        "duration": "about 8 weeks",
+        "rules": "You must have validated piscine-unity"
+    },
+    {
+        "name": "ft_ality",
+        "project_id": 665,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        1690,
+                        3410
+                    ],
+                    [
+                        1690,
+                        3580
+                    ]
+                ],
+                "parent_id": 370
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3580.0,
+        "description": "Ce projet va vous initier aux probl\u00e9matiques li\u00e9es \u00e0 l'analyse syntaxique automatique (dite \"parsing\"), en \u00e9tudiant les automates finis avec un jeu de combat.",
+        "state": "unavailable",
+        "slug": "ft_ality",
+        "id": 77,
+        "x": 1690.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated piscine-ocaml"
+    },
+    {
+        "name": "Swifty Proteins",
+        "project_id": 661,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2100,
+                        4039
+                    ],
+                    [
+                        1800,
+                        4039
+                    ]
+                ],
+                "parent_id": 63
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4039.0,
+        "description": "Ce projet a pour but de vous initier a Scene Kit un framework Apple pour cr\u00e9er scenes en 3D. Vous devrez principalement r\u00e9aliser une application qui mod\u00e9lisera des ligands en 3D, cette application sera aussi l'occasion d'approfondir vos connaissances en Swift et des framework Apple tels que Touch ID, le partage sous iOS, les gestures ainsi que les UISearchBar.",
+        "state": "unavailable",
+        "slug": "swifty-proteins",
+        "id": 71,
+        "x": 1800.0,
+        "duration": "about 3 weeks",
+        "rules": "You must have validated swifty-companion"
+    },
+    {
+        "name": "Darkly",
+        "project_id": 604,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2300,
+                        2300
+                    ],
+                    [
+                        2100,
+                        2100
+                    ]
+                ],
+                "parent_id": 118
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2100.0,
+        "description": "Projet introductif \u00e0 la s\u00e9curit\u00e9 en informatique dans le domaine sp\u00e9cifique du web, ce projet va vous faire diss\u00e9quer un site web vuln\u00e9rable. Ce faisant, vous allez d\u00e9velopper votre propre fa\u00e7on de penser \"s\u00e9curit\u00e9\" dans une application web et prendre conscience des probl\u00e8mes li\u00e9s \u00e0 de simples \"erreurs\" de d\u00e9veloppement, autant d'un point de vue programmation que d'un point de vue conception.",
+        "state": "available",
+        "slug": "darkly",
+        "id": 70,
+        "x": 2100.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated piscine-php and first-internship"
+    },
+    {
+        "name": "Snow Crash",
+        "project_id": 603,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        2800,
+                        1500
+                    ],
+                    [
+                        2700,
+                        1400
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        2700,
+                        1400
+                    ],
+                    [
+                        2597,
+                        1400
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        2600,
+                        1400
+                    ],
+                    [
+                        2550,
+                        1350
+                    ]
+                ],
+                "parent_id": 79
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1350.0,
+        "description": "Projet introductif \u00e0 la s\u00e9curit\u00e9 en informatique, Snow Crash a pour but de faire d\u00e9couvrir la s\u00e9curit\u00e9 dans diff\u00e9rents sous-domaines, avec une approche orient\u00e9e d\u00e9veloppeur. Vous allez vous familiariser avec plusieurs langages (ASM/perl/php..), d\u00e9velopper une certaine logique pour comprendre des programmes inconnus, et ainsi prendre conscience des probl\u00e8mes li\u00e9s \u00e0 de simples \"erreurs\" de programmation .",
+        "state": "available",
+        "slug": "snow-crash",
+        "id": 69,
+        "x": 2550.0,
+        "duration": "about 3 weeks",
+        "rules": "You must have validated libftasm"
+    },
+    {
+        "name": "ft_turing",
+        "project_id": 601,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        1872,
+                        3410
+                    ],
+                    [
+                        1550,
+                        3410
+                    ]
+                ],
+                "parent_id": 51
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3410.0,
+        "description": "ft_turing vous fera d\u00e9couvrir le mod\u00e8le de Turing \u00e0 la base du paradigme imp\u00e9ratif \u00e0 travers une impl\u00e9mentation de ce mod\u00e8le en OCaml.",
+        "state": "unavailable",
+        "slug": "ft_turing",
+        "id": 68,
+        "x": 1550.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated piscine-ocaml"
+    },
+    {
+        "name": "Hypertube",
+        "project_id": 597,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        2500,
+                        2500
+                    ],
+                    [
+                        2370,
+                        2370
+                    ]
+                ],
+                "parent_id": 59
+            }
+        ],
+        "final_mark": null,
+        "kind": "big_project",
+        "y": 2370.0,
+        "description": "Dernier projet de sa s\u00e9rie, le projet Hypertube vous invite \u00e0 d\u00e9couvrir une cat\u00e9gorie d'outil extr\u00eamement puissante : les frameworks MVC. Vous apprendrez \u00e0 manipuler un MVC, dans le langage de votre choix, pour r\u00e9aliser un site de streaming de video t\u00e9l\u00e9charg\u00e9es via le protocole BitTorrent.",
+        "state": "unavailable",
+        "slug": "hypertube",
+        "id": 60,
+        "x": 2370.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated matcha"
+    },
+    {
+        "name": "Matcha",
+        "project_id": 596,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2570,
+                        2570
+                    ],
+                    [
+                        2500,
+                        2500
+                    ]
+                ],
+                "parent_id": 537
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2500.0,
+        "description": "Ce second projet vous introduit \u00e0 un outil plus \u00e9volu\u00e9 pour r\u00e9aliser vos applications web : le micro-framework. Nous vous invitons \u00e0 r\u00e9aliser, dans le langage de votre choix, un site de rencontres. Les interactions entre utilisateurs seront au coeur du projet !",
+        "state": "unavailable",
+        "slug": "matcha",
+        "id": 59,
+        "x": 2500.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated camagru"
+    },
+    {
+        "name": "ft_nmap",
+        "project_id": 593,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        3950,
+                        1750
+                    ],
+                    [
+                        4100,
+                        1750
+                    ]
+                ],
+                "parent_id": 548
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1750.0,
+        "description": "Recoder le programme nmap va \u00eatre pour vous l'occasion d'approfondir vos connaissances dans le reseau (TCP/IP) et ainsi comprendre aussi via une utilisation avancee les threads dans un usage reel.",
+        "state": "unavailable",
+        "slug": "ft_nmap",
+        "id": 66,
+        "x": 4100.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated ft_traceroute"
+    },
+    {
+        "name": "ft_traceroute",
+        "project_id": 548,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3700,
+                        1750
+                    ],
+                    [
+                        3950,
+                        1750
+                    ]
+                ],
+                "parent_id": 539
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1750.0,
+        "description": "Recoder la commande traceroute va \u00eatre pour vous l'occasion d'approfondir vos connaissances dans le reseau (TCP/IP) en faisant le suivit des chemins qu'un paquet IP va emprunter entre deux machines.",
+        "state": "unavailable",
+        "slug": "ft_traceroute",
+        "id": 65,
+        "x": 3950.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated ft_ping"
+    },
+    {
+        "name": "Fillit",
+        "project_id": 540,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        2550,
+                        3000
+                    ],
+                    [
+                        2725,
+                        3000
+                    ]
+                ],
+                "parent_id": 1
+            }
+        ],
+        "final_mark": 100,
+        "kind": "project",
+        "y": 3000.0,
+        "description": "Fillit est un projet vous permettant de d\u00e9couvrir et/ou de vous familiariser avec une probl\u00e9matique r\u00e9currente en programmation : la recherche d'un solution optimale parmi un tr\u00e8s grand nombre de possibilit\u00e9s, dans un d\u00e9lai raisonnable. Dans le cas de ce projet, il s'agira d'agencer des Tetriminos entre eux et de d\u00e9terminer le plus petit carr\u00e9 possible pouvant les accueillir.",
+        "state": "done",
+        "slug": "fillit",
+        "id": 184,
+        "x": 2775.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated libft"
+    },
+    {
+        "name": "ft_ping",
+        "project_id": 539,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3400,
+                        1500
+                    ],
+                    [
+                        3525,
+                        1600
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3525,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1600
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1653
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1650
+                    ],
+                    [
+                        3700,
+                        1750
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3697,
+                        1750
+                    ],
+                    [
+                        3800,
+                        1750
+                    ]
+                ],
+                "parent_id": 40
+            },
+            {
+                "points": [
+                    [
+                        3400,
+                        1700
+                    ],
+                    [
+                        3525,
+                        1600
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3525,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1600
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1600
+                    ],
+                    [
+                        3600,
+                        1653
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3600,
+                        1650
+                    ],
+                    [
+                        3700,
+                        1750
+                    ]
+                ],
+                "parent_id": 41
+            },
+            {
+                "points": [
+                    [
+                        3697,
+                        1750
+                    ],
+                    [
+                        3800,
+                        1750
+                    ]
+                ],
+                "parent_id": 41
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1750.0,
+        "description": "Recoder la commande ping va vous permettre d'avoir une premi\u00e8re approche dans la communication (TCP/IP) entre deux machines dans un r\u00e9seau.",
+        "state": "unavailable",
+        "slug": "ft_ping",
+        "id": 67,
+        "x": 3800.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated 1 of ft_p and irc"
+    },
+    {
+        "name": "Camagru",
+        "project_id": 537,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        2600,
+                        2745
+                    ],
+                    [
+                        2600,
+                        2600
+                    ]
+                ],
+                "parent_id": 8
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2600.0,
+        "description": "Ce premier projet vous remet dans le bain apr\u00e8s la piscine PHP : vous allez devoir r\u00e9aliser, en PHP, un petit site Instagram-like permettant \u00e0 des utilisateurs de r\u00e9aliser et partager des photo-montages. Vous allez ainsi impl\u00e9menter, \u00e0 mains nues (les frameworks sont interdits), les fonctionnalit\u00e9s de base rencontr\u00e9es sur la majorit\u00e9 des sites poss\u00e9dant une base utilisateur.",
+        "state": "available",
+        "slug": "camagru",
+        "id": 58,
+        "x": 2600.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated piscine-php"
+    },
+    {
+        "name": "Swifty Companion",
+        "project_id": 536,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        2370,
+                        4039
+                    ],
+                    [
+                        2100,
+                        4039
+                    ]
+                ],
+                "parent_id": 62
+            },
+            {
+                "points": [
+                    [
+                        2100,
+                        3839
+                    ],
+                    [
+                        2100,
+                        4039
+                    ]
+                ],
+                "parent_id": 122
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4039.0,
+        "description": "Ce projet a pour but de vous initier au d\u00e9veloppement d'application iOS. Il s'agit de r\u00e9aliser, en Swift, une application qui permet de r\u00e9cup\u00e9rer les informations des \u00e9l\u00e8ves de 42, en utilisant l\u2019API de l'intranet de 42.",
+        "state": "unavailable",
+        "slug": "swifty-companion",
+        "id": 63,
+        "x": 2100.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated 1 of piscine-cpp and piscine-swift-ios"
+    },
+    {
+        "name": "HumanGL",
+        "project_id": 535,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        4250
+                    ],
+                    [
+                        3100,
+                        4250
+                    ]
+                ],
+                "parent_id": 135
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4250.0,
+        "description": "Ce projet interm\u00e9diaire d'OpenGL est une introduction \u00e0 la mod\u00e9lisation hi\u00e9rarchique. Vous allez apprendre \u00e0 utiliser les matrices afin de lier diff\u00e9rentes parties d\u2019un mod\u00e8le humano\u00efde et les animer.",
+        "state": "unavailable",
+        "slug": "humangl",
+        "id": 17,
+        "x": 3100.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated scop"
+    },
+    {
+        "name": "Rubik",
+        "project_id": 534,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        4300,
+                        3150
+                    ],
+                    [
+                        4450,
+                        3000
+                    ]
+                ],
+                "parent_id": 22
+            },
+            {
+                "points": [
+                    [
+                        4300,
+                        2850
+                    ],
+                    [
+                        4450,
+                        3000
+                    ]
+                ],
+                "parent_id": 23
+            },
+            {
+                "points": [
+                    [
+                        4450,
+                        3000
+                    ],
+                    [
+                        4650,
+                        3000
+                    ]
+                ],
+                "parent_id": 98
+            },
+            {
+                "points": [
+                    [
+                        4650,
+                        3000
+                    ],
+                    [
+                        4650,
+                        3250
+                    ]
+                ],
+                "parent_id": 98
+            },
+            {
+                "points": [
+                    [
+                        4650,
+                        3250
+                    ],
+                    [
+                        4500,
+                        3250
+                    ]
+                ],
+                "parent_id": 98
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3250.0,
+        "description": "Projet d'algorithmie non-trivial, ce projet a pour but de vous faire r\u00e9aliser un r\u00e9solveur de Rubik's Cube.\r\n\r\nVous \u00eates libres dans le choix de langage pour r\u00e9aliser le sujet.",
+        "state": "unavailable",
+        "slug": "rubik",
+        "id": 46,
+        "x": 4500.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated 1 of n-puzzle and expert-system"
+    },
+    {
+        "name": "21sh",
+        "project_id": 523,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        2500
+                    ],
+                    [
+                        3000,
+                        2300
+                    ]
+                ],
+                "parent_id": 105
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2300.0,
+        "description": "You'll continue working with your minishell, making it stronger to get closer to a viable shell. You'll add new features, such as multi-command management, redirections, as well as line editing to be able to modify a command on the fly.\r\n",
+        "state": "unavailable",
+        "slug": "21sh",
+        "id": 106,
+        "x": 3000.0,
+        "duration": "about 2 weeks",
+        "rules": "You must not have validated ft_sh2 and ft_sh3. You must have validated minishell"
+    },
+    {
+        "name": "KrpSim",
+        "project_id": 522,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        4300,
+                        3150
+                    ],
+                    [
+                        4450,
+                        3000
+                    ]
+                ],
+                "parent_id": 22
+            },
+            {
+                "points": [
+                    [
+                        4300,
+                        2850
+                    ],
+                    [
+                        4450,
+                        3000
+                    ]
+                ],
+                "parent_id": 23
+            },
+            {
+                "points": [
+                    [
+                        4450,
+                        3000
+                    ],
+                    [
+                        4650,
+                        3000
+                    ]
+                ],
+                "parent_id": 98
+            },
+            {
+                "points": [
+                    [
+                        4650,
+                        3000
+                    ],
+                    [
+                        4650,
+                        3250
+                    ]
+                ],
+                "parent_id": 98
+            },
+            {
+                "points": [
+                    [
+                        4650,
+                        3250
+                    ],
+                    [
+                        4800,
+                        3250
+                    ]
+                ],
+                "parent_id": 98
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3250.0,
+        "description": "Ce projet d'algorithmie consiste \u00e0 r\u00e9aliser un programme qui va optimiser le rendement d\u2019un graphe de processus, avec des contraintes de ressources. A vous d'explorer les algorithmes existants possibles et de choisir, voire de cr\u00e9er, ce qui vous semble le plus adapt\u00e9.\r\n\r\nVous \u00eates libres dans le choix de langage pour r\u00e9aliser le sujet.",
+        "state": "unavailable",
+        "slug": "krpsim",
+        "id": 47,
+        "x": 4800.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated 1 of expert-system and n-puzzle"
+    },
+    {
+        "name": "ft_linear_regression",
+        "project_id": 414,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        4300,
+                        2850
+                    ],
+                    [
+                        4450,
+                        3000
+                    ]
+                ],
+                "parent_id": 23
+            },
+            {
+                "points": [
+                    [
+                        4300,
+                        3150
+                    ],
+                    [
+                        4450,
+                        3000
+                    ]
+                ],
+                "parent_id": 22
+            },
+            {
+                "points": [
+                    [
+                        4450,
+                        3000
+                    ],
+                    [
+                        4600,
+                        3000
+                    ]
+                ],
+                "parent_id": 98
+            },
+            {
+                "points": [
+                    [
+                        4600,
+                        3000
+                    ],
+                    [
+                        4600,
+                        2800
+                    ]
+                ],
+                "parent_id": 98
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2800.0,
+        "description": "",
+        "state": "unavailable",
+        "slug": "ft_linear_regression",
+        "id": 61,
+        "x": 4600.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated 1 of expert-system and n-puzzle"
+    },
+    {
+        "name": "Bomberman",
+        "project_id": 410,
+        "difficulty": "Tier 3",
+        "by": [
+            {
+                "points": [
+                    [
+                        2300,
+                        4450
+                    ],
+                    [
+                        2300,
+                        4600
+                    ]
+                ],
+                "parent_id": 80
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4600.0,
+        "description": "Bomberman, c'est un classique du jeu video : aussi simple dans son gameplay que fun \u00e0 jouer ! Vous allez ici profiter de sa simplicit\u00e9 pour faire votre premier gros projet de C++ de facture professionnelle. Vous allez recoder une version de Bomberman, en C++ et avec OpenGL, avec pour objectif de r\u00e9aliser un jeu le plus abouti possible.",
+        "state": "unavailable",
+        "slug": "bomberman",
+        "id": 50,
+        "x": 2300.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated abstract-vm. You must have validated first-internship"
+    },
+    {
+        "name": "Root-me | App-Systeme",
+        "project_id": 94,
+        "difficulty": "Tier 4",
+        "by": [
+            {
+                "points": [
+                    [
+                        2800,
+                        1500
+                    ],
+                    [
+                        2700,
+                        1400
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        2700,
+                        1400
+                    ],
+                    [
+                        2700,
+                        1297
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        2700,
+                        1300
+                    ],
+                    [
+                        2650,
+                        1250
+                    ]
+                ],
+                "parent_id": 79
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1250.0,
+        "description": "root-me.org, vous connaissez ? Ce site propose des challenges de s\u00e9curit\u00e9 de difficult\u00e9 croissante, id\u00e9aux pour apprendre et se d\u00e9passer ! Nous vous proposons de valider vos connaissances et heures pass\u00e9es sur Root-Me via ce projet.\r\n\r\nCette s\u00e9rie de challenges Root-Me a pour but de vous faire d\u00e9couvrir comment d\u00e9tecter et exploiter des vuln\u00e9rabilit\u00e9s applicatives sur binaires ELF32. Pour l'aborder, il vous faudra bien entendu des connaissances en C, en assembleur et une familiarit\u00e9 certaine avec gdb. Bonne chance !",
+        "state": "in_progress",
+        "slug": "root-me-app-systeme",
+        "id": 11,
+        "x": 2650.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated libftasm"
+    },
+    {
+        "name": "Root-me | Cracking",
+        "project_id": 412,
+        "difficulty": "Tier 4",
+        "by": [
+            {
+                "points": [
+                    [
+                        2650,
+                        1250
+                    ],
+                    [
+                        2550,
+                        1150
+                    ]
+                ],
+                "parent_id": 94
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1150.0,
+        "description": "root-me.org, vous connaissez ? Ce site propose des challenges de s\u00e9curit\u00e9 de difficult\u00e9 croissante, id\u00e9aux pour apprendre et se d\u00e9passer ! Nous vous proposons de valider vos connaissances et heures pass\u00e9es sur Root-Me via ce projet. \r\n\r\nCette s\u00e9rie de challenges Root-Me a pour but de vous faire d\u00e9couvrir comment d\u00e9tecter et exploiter des vuln\u00e9rabilit\u00e9s applicatives. Vous aurez des fichiers binaires \u00e0 d\u00e9cortiquer pour aller chercher les instructions bas niveau permettant de r\u00e9pondre au probl\u00e8me pos\u00e9. Pour l'aborder, il vous faudra bien entendu des connaissances en C, en assembleur et une familiarit\u00e9 certaine avec gdb. Bonne chance !",
+        "state": "unavailable",
+        "slug": "root-me-cracking",
+        "id": 13,
+        "x": 2550.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated root-me-app-systeme"
+    },
+    {
+        "name": "strace",
+        "project_id": 179,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2800,
+                        1500
+                    ],
+                    [
+                        2700,
+                        1600
+                    ]
+                ],
+                "parent_id": 79
+            },
+            {
+                "points": [
+                    [
+                        2700,
+                        1600
+                    ],
+                    [
+                        2700,
+                        1700
+                    ]
+                ],
+                "parent_id": 79
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 1700.0,
+        "description": "Premier pas d'une s\u00e9rie de projets en C menant \u00e0 la r\u00e9alisation d'un mini-GDB, ce projet vous demande de recoder strace, un outil qui permet de lister tous les appels syst\u00e8mes effectu\u00e9s par un programme en cours d'ex\u00e9cution.",
+        "state": "available",
+        "slug": "strace",
+        "id": 45,
+        "x": 2700.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated libftasm"
+    },
+    {
+        "name": "42run",
+        "project_id": 178,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        4250
+                    ],
+                    [
+                        2900,
+                        4250
+                    ]
+                ],
+                "parent_id": 135
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4250.0,
+        "description": "Vous connaissez Temple Run ? Il est temps de le refaire ! Ce projet interm\u00e9diaire d'OpenGL vous invite \u00e0 recr\u00e9er ce jeu mobile. Amusez-vous : tous les bonus sont possible pour d\u00e9passer la c\u00e9l\u00e8bre franchise.",
+        "state": "unavailable",
+        "slug": "42run",
+        "id": 15,
+        "x": 2900.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated scop. You must have validated first-internship"
+    },
+    {
+        "name": "Nibbler",
+        "project_id": 95,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2400,
+                        4350
+                    ],
+                    [
+                        2300,
+                        4455
+                    ]
+                ],
+                "parent_id": 49
+            },
+            {
+                "points": [
+                    [
+                        2300,
+                        4450
+                    ],
+                    [
+                        2200,
+                        4450
+                    ]
+                ],
+                "parent_id": 80
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4450.0,
+        "description": "Ce projet de C++ vous fait recoder le jeu Snake avec plusieurs interfaces graphiques diff\u00e9rentes; le joueur devant pouvoir switcher entre les interfaces pendant le jeu. C'est l'occasion de voir comment charger et utiliser des biblioth\u00e8ques dynamiques au runtime.",
+        "state": "unavailable",
+        "slug": "nibbler",
+        "id": 56,
+        "x": 2200.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated abstract-vm"
+    },
+    {
+        "name": "ComputorV1",
+        "project_id": 111,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        3900,
+                        3000
+                    ],
+                    [
+                        4100,
+                        3000
+                    ]
+                ],
+                "parent_id": 104
+            },
+            {
+                "points": [
+                    [
+                        4100,
+                        3000
+                    ],
+                    [
+                        4100,
+                        3250
+                    ]
+                ],
+                "parent_id": 22
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3250.0,
+        "description": "Le but de ce projet est de vous faire (re)prendre contact avec la manipulation d\u2019outils math\u00e9matiques \u00e9l\u00e9mentaires, qui pourront vous \u00eatre utiles dans de nombreux autres sujets de 42. Il ne s\u2019agit pas de \"faire des maths pour faire des maths\", mais bien de vous permettre d\u2019aborder plus progressivement et sereinement les sujets o\u00f9 il y en a besoin.\r\n\r\nVous \u00eates libres dans le choix de langage pour r\u00e9aliser le sujet.",
+        "state": "in_progress",
+        "slug": "computorv1",
+        "id": 20,
+        "x": 4100.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "ft_hangouts",
+        "project_id": 409,
+        "difficulty": "Tier 1",
+        "by": [
+            {
+                "points": [
+                    [
+                        2220,
+                        4039
+                    ],
+                    [
+                        2220,
+                        4205
+                    ]
+                ],
+                "parent_id": 62
+            },
+            {
+                "points": [
+                    [
+                        2220,
+                        4200
+                    ],
+                    [
+                        2100,
+                        4200
+                    ]
+                ],
+                "parent_id": 62
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4200.0,
+        "description": "Ce projet a pour but de vous initier au d\u00e9veloppement d'application Android. Il s'agit de r\u00e9aliser, en JAVA, une application mobile de gestion de contacts sur la plateforme Android de Google. \r\nLe but ici est de comprendre comment fonctionne une application Android, comment Android g\u00e8re votre application et comment utiliser le SDK.",
+        "state": "unavailable",
+        "slug": "ft_hangouts",
+        "id": 64,
+        "x": 2100.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated piscine-cpp"
+    },
+    {
+        "name": "Gomoku",
+        "project_id": 107,
+        "difficulty": "Tier 4",
+        "by": [
+            {
+                "points": [
+                    [
+                        4300,
+                        2850
+                    ],
+                    [
+                        4450,
+                        3000
+                    ]
+                ],
+                "parent_id": 23
+            },
+            {
+                "points": [
+                    [
+                        4450,
+                        3000
+                    ],
+                    [
+                        4800,
+                        3000
+                    ]
+                ],
+                "parent_id": 98
+            },
+            {
+                "points": [
+                    [
+                        4300,
+                        3150
+                    ],
+                    [
+                        4450,
+                        3000
+                    ]
+                ],
+                "parent_id": 22
+            }
+        ],
+        "final_mark": null,
+        "kind": "big_project",
+        "y": 3000.0,
+        "description": "Ce projet vous demande de cr\u00e9er, dans le langage de votre choix, un jeu de Gomoku int\u00e9grant un joueur IA capable de battre un joueur humain le plus rapidement possible. Pour ce faire, vous allez impl\u00e9menter un algorithme min-max mais aussi (et surtout), faire des recherches et essais pour trouver les heuristiques les plus adapt\u00e9es. Ce ne sera pas aussi facile qu'un jeu de dames.",
+        "state": "unavailable",
+        "slug": "gomoku",
+        "id": 24,
+        "x": 4800.0,
+        "duration": "about 4 weeks",
+        "rules": "You must have validated 1 of expert-system and n-puzzle. You must have validated first-internship"
+    },
+    {
+        "name": "Scop",
+        "project_id": 135,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        4000
+                    ],
+                    [
+                        3000,
+                        4100
+                    ]
+                ],
+                "parent_id": 24
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 4100.0,
+        "description": "Faites vos premiers pas dans le monde de la 3D sur GPU avec de l'OpenGL. Les principaux concepts sont abord\u00e9s lors d'un petit projet ludique.",
+        "state": "available",
+        "slug": "scop",
+        "id": 34,
+        "x": 3000.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "N-puzzle",
+        "project_id": 97,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3900,
+                        3000
+                    ],
+                    [
+                        4150,
+                        3000
+                    ]
+                ],
+                "parent_id": 104
+            },
+            {
+                "points": [
+                    [
+                        4150,
+                        3000
+                    ],
+                    [
+                        4300,
+                        3150
+                    ]
+                ],
+                "parent_id": 22
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3150.0,
+        "description": "Il s'agit ici de r\u00e9aliser, dans le langage de votre choix, un programme capable de r\u00e9soudre des Taquins de tailles vari\u00e9es, de fa\u00e7on aussi optimale que possible.",
+        "state": "available",
+        "slug": "n-puzzle",
+        "id": 22,
+        "x": 4300.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "Expert System",
+        "project_id": 98,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3900,
+                        3000
+                    ],
+                    [
+                        4150,
+                        3000
+                    ]
+                ],
+                "parent_id": 104
+            },
+            {
+                "points": [
+                    [
+                        4150,
+                        3000
+                    ],
+                    [
+                        4300,
+                        2850
+                    ]
+                ],
+                "parent_id": 22
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2850.0,
+        "description": "Ce projet vous demande de cr\u00e9er, dans le langage de votre choix, un syst\u00e8me expert en calcul des propositions, autrement dit un programme capable de raisonner sur un ensemble de r\u00e8gles et de faits initiaux afin de d\u00e9duire certains autres faits.",
+        "state": "in_progress",
+        "slug": "expert-system",
+        "id": 23,
+        "x": 4300.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "Taskmaster",
+        "project_id": 122,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        2350
+                    ],
+                    [
+                        3000,
+                        2200
+                    ]
+                ],
+                "parent_id": 39
+            },
+            {
+                "points": [
+                    [
+                        3000,
+                        2200
+                    ],
+                    [
+                        3200,
+                        2200
+                    ]
+                ],
+                "parent_id": 523
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 2200.0,
+        "description": "Il s'agit de r\u00e9aliser un programme de job control, dans le langage de votre choix. Ce qu'on vous demandera d'accomplir est tr\u00e8s proche du programme supervisor",
+        "state": "unavailable",
+        "slug": "taskmaster",
+        "id": 40,
+        "x": 3200.0,
+        "duration": "about 2 weeks",
+        "rules": "You must have validated 1 of 21sh, ft_sh3, and ft_sh2"
+    },
+    {
+        "name": "Piscine Reloaded",
+        "project_id": 756,
+        "difficulty": "Tier 0",
+        "by": [
+            {
+                "points": [
+                    [
+                        2150,
+                        3000
+                    ],
+                    [
+                        2350,
+                        3000
+                    ]
+                ],
+                "parent_id": 817
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3000.0,
+        "description": "Revoyez les bases de la piscine avec une suite d'exercices tir\u00e9e des sujets de celle-ci.",
+        "state": "available",
+        "slug": "piscine-reloaded",
+        "id": 182,
+        "x": 2350.0,
+        "duration": "about 2 days",
+        "rules": "You must have validated 42-commandements"
+    },
+    {
+        "name": "Piscine Ruby on Rails",
+        "project_id": 791,
+        "difficulty": "Tier 2",
+        "by": [],
+        "final_mark": null,
+        "kind": "piscine",
+        "y": 2150.0,
+        "description": "Apprenez \u00e0 concevoir une WebApp puissante et robuste avec le Framework Rails.",
+        "state": "available",
+        "slug": "piscine-ruby-on-rails",
+        "id": 191,
+        "x": 1850.0,
+        "duration": null,
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "Corewar Championship",
+        "project_id": 403,
+        "difficulty": "Tier 0",
+        "by": [
+            {
+                "points": [
+                    [
+                        3900,
+                        3000
+                    ],
+                    [
+                        3900,
+                        3150
+                    ]
+                ],
+                "parent_id": 104
+            }
+        ],
+        "final_mark": null,
+        "kind": "project",
+        "y": 3150.0,
+        "description": "Cr\u00e9ez l'ultime champion de Corewar et \u00e9crasez toute comp\u00e9tition ! (Sauf le champion de zaz)",
+        "state": "in_progress",
+        "slug": "corewar-championship",
+        "id": 4,
+        "x": 3900.0,
+        "duration": null,
+        "rules": "You must register to corewar"
+    },
+    {
+        "name": "Rushes",
+        "project_id": 61,
+        "difficulty": "Tier 0",
+        "by": [],
+        "final_mark": null,
+        "kind": "rush",
+        "y": 3500.0,
+        "description": "Les rushes sont la formule id\u00e9ale pour explorer des probl\u00e9matiques compl\u00e9mentaires aux projets r\u00e9guliers de votre cursus, en immersion avec vos coll\u00e8gues. Le temps d'un week-end par exemple, vous allez vous concentrer sur un sujet pr\u00e9cis, croiser de nouvelles t\u00eates pour vos futurs projets, et adopter un rythme intensif ! Les th\u00e9matiques vous seront communiqu\u00e9es \u00e0 l'avance, vous n'aurez qu'\u00e0 vous pr\u00e9senter le jour J avec \u00e9nergie et bonne humeur pour relever les challenges que l'on vous propose.",
+        "state": "in_progress",
+        "slug": "rushes",
+        "id": 30,
+        "x": 2650.0,
+        "duration": null,
+        "rules": ""
+    },
+    {
+        "name": "Open Project II",
+        "project_id": 615,
+        "difficulty": "Tier 5",
+        "by": [
+            {
+                "points": [
+                    [
+                        3450,
+                        4050
+                    ],
+                    [
+                        3518,
+                        4250
+                    ]
+                ],
+                "parent_id": 5
+            }
+        ],
+        "final_mark": null,
+        "kind": "big_project",
+        "y": 4250.0,
+        "description": "Ce second projet libre est l'occasion de perfectionner votre gestion de projet sur le long terme, en produisant un projet plus abouti. \r\nVous \u00eates enti\u00e8rement libres dans le choix du sujet - \u00e7a peut \u00eatre en lien avec l'informatique, ou \u00eatre enti\u00e8rement autre chose ! \r\nVos seules contraintes sont 1) de travailler en groupe avec d'autres \u00e9tudiants de 42, 2) de r\u00e9aliser votre projet sur une p\u00e9riode de 8 mois.",
+        "state": "unavailable",
+        "slug": "open-project-ii",
+        "id": 73,
+        "x": 3518.0,
+        "duration": "about 38 weeks",
+        "rules": "You must have validated open-project-i"
+    },
+    {
+        "name": "Open Project I",
+        "project_id": 85,
+        "difficulty": "Tier 4",
+        "by": [
+            {
+                "points": [
+                    [
+                        3406,
+                        3913
+                    ],
+                    [
+                        3450,
+                        4050
+                    ]
+                ],
+                "parent_id": 118
+            }
+        ],
+        "final_mark": null,
+        "kind": "big_project",
+        "y": 4050.0,
+        "description": "Ce projet est l'occasion d'aborder la gestion de projet sur le long terme, autour d'un sujet qui vous tient \u00e0 coeur. \r\nVous \u00eates enti\u00e8rement libres dans le choix du sujet - \u00e7a peut \u00eatre en lien avec l'informatique, ou \u00eatre enti\u00e8rement autre chose ! \r\nVos seules contraintes sont 1) de travailler en groupe avec d'autres \u00e9tudiants de 42, 2) de r\u00e9aliser votre projet sur une p\u00e9riode de 5 mois.",
+        "state": "available",
+        "slug": "open-project-i",
+        "id": 5,
+        "x": 3450.0,
+        "duration": "about 25 weeks",
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "Piscine Swift iOS",
+        "project_id": 742,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2272,
+                        3685
+                    ],
+                    [
+                        2100,
+                        3839
+                    ]
+                ],
+                "parent_id": 118
+            }
+        ],
+        "final_mark": null,
+        "kind": "piscine",
+        "y": 3839.0,
+        "description": "",
+        "state": "available",
+        "slug": "piscine-swift-ios",
+        "id": 122,
+        "x": 2100.0,
+        "duration": null,
+        "rules": "You must have validated First Internship"
+    },
+    {
+        "name": "Piscine CPP",
+        "project_id": 62,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2500,
+                        3866
+                    ],
+                    [
+                        2400,
+                        4039
+                    ]
+                ],
+                "parent_id": 118
+            }
+        ],
+        "final_mark": null,
+        "kind": "piscine",
+        "y": 4039.0,
+        "description": "Cette piscine C++ est le passage oblig\u00e9 pour le d\u00e9blocage des projets de programmation orient\u00e9e objet du cursus 42. Vous allez ici aborder les concepts de base de la POO \u00e0 travers les sp\u00e9cifit\u00e9s du C++. ",
+        "state": "available",
+        "slug": "piscine-cpp",
+        "id": 48,
+        "x": 2400.0,
+        "duration": null,
+        "rules": "You must have validated First Internship"
+    },
+    {
+        "name": "Piscine OCaml",
+        "project_id": 370,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2060,
+                        3342
+                    ],
+                    [
+                        1872,
+                        3410
+                    ]
+                ],
+                "parent_id": 118
+            }
+        ],
+        "final_mark": null,
+        "kind": "piscine",
+        "y": 3410.0,
+        "description": "Cette piscine OCaml est la porte d'entr\u00e9e vers les projets de programmation fonctionnelle du cursus 42. Vous aborderez ici le paradigme fonctionnel \u00e0 travers les sp\u00e9cificit\u00e9s de l'OCaml.",
+        "state": "available",
+        "slug": "piscine-ocaml",
+        "id": 51,
+        "x": 1872.0,
+        "duration": null,
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "Piscine PHP",
+        "project_id": 48,
+        "difficulty": "Tier 1",
+        "by": [],
+        "final_mark": 69,
+        "kind": "piscine",
+        "y": 2745.0,
+        "description": "The PHP Piscine is the gateway for all of the 42 curriculum web projects. It addresses simply the fundamentals related to this technology.",
+        "state": "done",
+        "slug": "piscine-php",
+        "id": 8,
+        "x": 2600.0,
+        "duration": null,
+        "rules": "You must be at least level 5 in cursus 42"
+    },
+    {
+        "name": "Piscine Python Django",
+        "project_id": 727,
+        "difficulty": "Tier 2",
+        "by": [],
+        "final_mark": null,
+        "kind": "piscine",
+        "y": 2550.0,
+        "description": "Prenez en main la conception d'un backend WEB brillant par sa qualit\u00e9 et sa performance avec le framework Django.",
+        "state": "available",
+        "slug": "piscine-python-django",
+        "id": 123,
+        "x": 1900.0,
+        "duration": null,
+        "rules": "You must have validated first-internship"
+    },
+    {
+        "name": "First Internship",
+        "project_id": 118,
+        "difficulty": "Tier 5",
+        "by": [
+            {
+                "points": [
+                    [
+                        3000,
+                        2100
+                    ],
+                    [
+                        3000,
+                        2000
+                    ]
+                ],
+                "parent_id": 107
+            },
+            {
+                "points": [
+                    [
+                        3900,
+                        3000
+                    ],
+                    [
+                        4000,
+                        3000
+                    ]
+                ],
+                "parent_id": 104
+            },
+            {
+                "points": [
+                    [
+                        3000,
+                        3900
+                    ],
+                    [
+                        3000,
+                        4000
+                    ]
+                ],
+                "parent_id": 29
+            },
+            {
+                "points": [
+                    [
+                        2292,
+                        2292
+                    ],
+                    [
+                        2370,
+                        2370
+                    ]
+                ],
+                "parent_id": 597
+            }
+        ],
+        "final_mark": 116,
+        "kind": "first_internship",
+        "y": 3707.0,
+        "description": "Ce premier pas en entreprise est un passage important de votre cursus 42. Ce stage est le moment o\u00f9 vous allez d\u00e9couvrir le monde de l'entreprise et mettre en oeuvre vos capacit\u00e9s de travail, d'adaptation, au service du march\u00e9. C'est un premier \u00e9l\u00e9ment pour votre CV, et l'occasion de voir \u00e9merger votre futur domaine de pr\u00e9dilection.",
+        "state": "done",
+        "slug": "first-internship",
+        "id": 32,
+        "x": 3707.0,
+        "duration": "about 17 weeks",
+        "rules": "You must have validated 1 of hypertube, 42sh, corewar, and rt. You must have validated c-exam-beginner and savoir-relier"
+    },
+    {
+        "name": "Savoir Relier",
+        "project_id": 96,
+        "difficulty": "Tier 0",
+        "by": [],
+        "final_mark": 100,
+        "kind": "project",
+        "y": 3550.0,
+        "description": "Ce projet est un peu diff\u00e9rent des autres. Pas de code cette fois-ci, un questionnaire vous est propos\u00e9, suivi d'un \u00e9change verbal avec un peer : le but ici est de vous permettre de prendre du recul sur vous-m\u00eame et sur votre relationnel aux autres avant de partir en stage. Ceci afin de nourrir vos r\u00e9flexions et votre positionnement lors de cette immersion dans le monde professionnel. C'est un pr\u00e9-requis \u00e0 votre d\u00e9part en stage.",
+        "state": "done",
+        "slug": "savoir-relier",
+        "id": 31,
+        "x": 3550.0,
+        "duration": "about 1 week",
+        "rules": "You must have validated libft"
+    },
+    {
+        "name": "Part-time",
+        "project_id": 184,
+        "difficulty": "Tier 5",
+        "by": [],
+        "final_mark": null,
+        "kind": "part_time",
+        "y": 4110.0,
+        "description": "Une bonne insertion professionnelle reste un des objectifs fondamenteaux de l'\u00e9cole. Nous vous donnons, via ce projet, la possibilit\u00e9 de valoriser une activit\u00e9 professionnelle \u00e0 temps partiel sur la troisi\u00e8me partie de votre scolarit\u00e9.",
+        "state": "available",
+        "slug": "part-time",
+        "id": 55,
+        "x": 4110.0,
+        "duration": "about 25 weeks",
+        "rules": "You must have validated First Internship. You must be at least level 14 in cursus 42"
+    },
+    {
+        "name": "Final Internship",
+        "project_id": 212,
+        "difficulty": "Tier ",
+        "by": [],
+        "final_mark": null,
+        "kind": "second_internship",
+        "y": 4555.0,
+        "description": "Votre cursus 42 se clot sur une derni\u00e8re p\u00e9riode d'insertion professionnelle : le stage final. Ce stage est l'accomplissement de votre parcours, il vous permettra d'aller d\u00e9montrer votre expertise en entreprise, et vous servira de tremplin pour lancer votre carri\u00e8re.",
+        "state": "available",
+        "slug": "final-internship",
+        "id": 53,
+        "x": 4555.0,
+        "duration": "about 25 weeks",
+        "rules": "You must have validated First Internship. You must be at least level 14 in cursus 42"
+    },
+    {
+        "name": "Piscine Unity",
+        "project_id": 394,
+        "difficulty": "Tier 2",
+        "by": [
+            {
+                "points": [
+                    [
+                        2400,
+                        4150
+                    ],
+                    [
+                        2650,
+                        4150
+                    ]
+                ],
+                "parent_id": 62
+            },
+            {
+                "points": [
+                    [
+                        2650,
+                        4145
+                    ],
+                    [
+                        2650,
+                        4250
+                    ]
+                ],
+                "parent_id": 62
+            }
+        ],
+        "final_mark": null,
+        "kind": "piscine",
+        "y": 4250.0,
+        "description": "Vous avez d\u00e9j\u00e0 r\u00eav\u00e9 de programmer un jeu video ? Unity est une plate-forme de developpement graphique 2D et 3D simple \u00e0 prendre en main sur laquelle vous pourrez developper vos premiers jeux videos pendant cette piscine !",
+        "state": "unavailable",
+        "slug": "piscine-unity",
+        "id": 57,
+        "x": 2650.0,
+        "duration": null,
+        "rules": "You must be at least level 8 in cursus 42. You must have validated piscine-cpp"
+    },
+    {
+        "name": "C Exam - Beginner",
+        "project_id": 11,
+        "difficulty": "Tier 1",
+        "by": [],
+        "final_mark": 97,
+        "kind": "exam",
+        "y": 3450.0,
+        "description": "Les examens machine permettent de v\u00e9rifier vos acquis lorsque vous \u00eates seuls face \u00e0 votre travail, sans vos peers et sans internet.\r\nPour valider ce projet (qui est un pr\u00e9-requis \u00e0 votre d\u00e9part en 1er stage), il vous faut valider 5 examens avec une note minimum de 75.",
+        "state": "done",
+        "slug": "c-exam-beginner",
+        "id": 6,
+        "x": 2350.0,
+        "duration": "about 1 week",
+        "rules": ""
+    }
+]
